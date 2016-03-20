@@ -41,12 +41,14 @@ body,ul,li,h1,h2,h3,h4,h5,h6{margin:0px;padding: 0;font-family:'微软雅黑';ba
 .zipaitou:hover{transform:rotateY(360deg);}
 .zipaitou img{width: 100%;height: 100%}
 .zipai .xinxi{position: absolute;left: 35%;top: 50%}
-.zipai span{display: block;margin: 10px}
+.zipai span{display: block;}
 
 .sanlou{width: 100%;height: 600px;}
 .sanloubox{width: 100%;height: 100%;margin: 0 auto;}
+.sanloubox span{display: block}
 .jingli,.jineng,.jianjie{color:black;font-weight:bold;font-size: 30px;margin-top: 5%;display: block;}
-.jutijingli,.jutijineng,.jutijianjie{color: black;font-size: 22px;}
+.jutijingli,.jutijineng,.jutijianjie{color: black;font-size: 22px;margin-bottom: 5px}
+.jutijineng{display: block}
 .silou{width: 100%;height: 600px;}
 .siloubox{width: 100%;height: 100%;margin: 0 auto;}
 .container .post {
