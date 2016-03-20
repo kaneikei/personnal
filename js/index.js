@@ -47,6 +47,59 @@ $(function()
 					index++;
 				}
 			})()
-	var dazi=setInterval(zichuxian,100)
+	var dazi=setInterval(zichuxian,100);
+
+	//功能：获取滚动条与页面顶部的距离
+	// function getScrollT()
+	// {	
+	// 	var obj=document.documentElement.scrollTop?document.documentElement:document.body;
+	// 	var scrollT=obj.scrollTop;
+	// 	return scrollT;
+	// }
+	// var scrollT=getScrollT();
+	var obj=document.documentElement.scrollTop?document.documentElement:document.body;
+	var $erlou=$('.erlou');
+	var juli1=$erlou.offset().top;
+	var $sanlou=$('.sanlou');
+	var juli2=$sanlou.offset().top;
+	var $silou=$('.silou');
+	var juli3=$silou.offset().top;
+	var $wulou=$('.wulou');
+	var juli4=$wulou.offset().top;
+
+
+	$('.lanmu1').children().first().bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli1},1000,'swing')
+	})
+	$('.gengduoul').children().eq(0).bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli1},1000,'swing')
+	})
+	$('.lanmu1').children().last().bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli2},1000,'swing')
+	})
+	$('.gengduoul').children().eq(1).bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli2},1000,'swing')
+	})
+	$('.lanmu2').children().first().bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli3},1000,'swing')
+	})
+	$('.gengduoul').children().eq(2).bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli3},1000,'swing')
+	})
+	$('.lanmu2').children().last().bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli4},1000,'swing')
+	})
+	$('.gengduoul').children().eq(3).bind('click',function()
+	{
+		$(obj).animate({scrollTop:juli4},1000,'swing')
+	})
+	
 	
 })
