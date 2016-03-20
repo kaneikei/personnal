@@ -27,8 +27,8 @@ $(function()
 		}
 
 	})()
-	var t=setInterval(move,5000);
-	var jieshao="我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛我是李海涛";
+	var t=setInterval(move,4000);
+	var jieshao="我";
 	var $ziwojieshao=$('.erlou span');
 	$ziwojieshao.text();
 	var zichuxian=(function()
