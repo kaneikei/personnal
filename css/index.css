@@ -33,9 +33,12 @@ body,ul,li,h1,h2,h3,h4,h5,h6{margin:0px;padding: 0;font-family:'微软雅黑';ba
 .yilou span{display: block;position: absolute;left: 25%;top: 30%;width: 50%;height: 20%;text-align: center;font-size:46px;color: #24354C}
 .imgbox{width: 200%;height:100%;overflow: hidden;transition:all 1.5s ease;}
 .imgbox img{width: 50%;float: left;height: 100%}
-.erlou{width: 100%;height: 630px}
+.erlou{width: 100%;height: 400px}
 .erloubox{width: 100%;height: 100%;margin: 0 auto;}
-.erlous .jutijianjie{color: black;font-size: 22px;display: block;width: 60%;margin-top:10%;text-align: center;float: left;}
+.erlou .jutijianjie{color: black;font-size: 22px;display: block;width: 60%;float: left;}
+.zipai{width: 30%;height: 100%;border:1px solid black;float: right}
+
+
 .sanlou{width: 100%;height: 600px;}
 .sanloubox{width: 100%;height: 100%;margin: 0 auto;}
 .jingli,.jineng,.jianjie{color:black;font-weight:bold;font-size: 30px;margin-top: 5%;display: block;}
@@ -105,23 +108,27 @@ img {
 @media(max-width: 1200px){
 	.lanmu1,.lanmu2{display: none;}
 	.gengduo{display: block}
-	.yilou,.erlou,.sanlou{height: 550px;}
+	.yilou,.sanlou{height: 550px;}
+	.erlou{height: 350px;}
 }
 @media(max-width:1000px){
 	.yilou,.erlou,.sanlou,.silou{height: 500px;}
 	.yilou span{font-size: 40px}
 }
 @media(max-width:850px){
-	.yilou,.erlou,.sanlou,.silou{height: 450px;}
-	.erlou span,.sanlou .jutijingli,.silou .jutijineng{font-size: 20px;}
+	.yilou,.sanlou,.silou{height: 450px;}
+	.erlou{height: 300px;}
+	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 20px;}
 	.yilou span{font-size: 36px}
 }
 @media(max-width:740px){
-	.yilou,.erlou,.sanlou,.silou{height: 400px;}
-	.erlou span,.sanlou .jutijingli,.silou .jutijineng{font-size: 18px;}
+	.yilou,.sanlou,.silou{height: 400px;}
+	.erlou{height: 250px;}
+	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 18px;}
 	.yilou span{font-size: 32px}
 }
 @media(max-width:600px){
-	.yilou,.erlou,.sanlou,.silou{height: 350px;}
-	.erlou span,.sanlou .jutijingli,.silou .jutijineng{font-size: 16px;}
+	.yilou,.sanlou,.silou{height: 350px;}
+	.erlou{height: 200px;}
+	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 16px;}
 }
