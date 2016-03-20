@@ -6,8 +6,12 @@ $(function()
 	$gengduo.bind('click',function()
 	{
 		$gengduoul.slideToggle()
+		return false;
 	})
-
+	$(document).bind('click',function()
+	{
+		$gengduoul.slideUp()
+	})
 	$(window).resize(function()
 	{
 		w=$(window).width();

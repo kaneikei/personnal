@@ -27,17 +27,21 @@ body,ul,li,h1,h2,h3,h4,h5,h6{margin:0px;padding: 0;font-family:'微软雅黑';ba
 .gengduo{width: 86px;height: 86px;float: right;line-height: 86px;display: none;cursor: pointer;}
 .gengduo .iconfont{color: white;height: 86px;line-height: 86px;}
 .gengduoul{width: 150px;height: 200px;background-color: #323232;position: absolute;top: 86px;right: 0px;display: none;z-index: 100;background-color: #1A6BA0}
-.gengduoul li{width: 150px;height: 50px;text-align: center;line-height: 50px;font-size: 18px;cursor: pointer;}
-.gengduoul li:hover{background-color: #675858;color: red}
+.gengduoul li{width: 150px;height: 50px;text-align: center;line-height: 50px;font-size: 18px;cursor: pointer;background-color: #1A6BA0}
+.gengduoul li:hover{background-color: #1A2C3C;color: red}
 .yilou{overflow: hidden;width: 100%;height: 600px;position: relative;}
 .yilou span{display: block;position: absolute;left: 25%;top: 30%;width: 50%;height: 20%;text-align: center;font-size:46px;color: #24354C}
 .imgbox{width: 200%;height:100%;overflow: hidden;transition:all 1.5s ease;}
 .imgbox img{width: 50%;float: left;height: 100%}
-.erlou{width: 100%;height: 400px}
+.erlou{width: 100%;height: 300px}
 .erloubox{width: 100%;height: 100%;margin: 0 auto;}
 .erlou .jutijianjie{color: black;font-size: 22px;display: block;width: 60%;float: left;}
-.zipai{width: 30%;height: 100%;border:1px solid black;float: right}
-
+.zipai{width: 30%;height: 100%;border:1px solid black;float: right;position: relative;}
+.zipaitou{width: 30%;height: 35%;border: 1px solid black;margin-left: 35%;margin-top: 10%;transition: all 1s ease}
+.zipaitou:hover{transform:rotateY(360deg);}
+.zipaitou img{width: 100%;height: 100%}
+.zipai .xinxi{position: absolute;left: 35%;top: 50%}
+.zipai span{display: block;margin: 10px}
 
 .sanlou{width: 100%;height: 600px;}
 .sanloubox{width: 100%;height: 100%;margin: 0 auto;}
@@ -109,26 +113,27 @@ img {
 	.lanmu1,.lanmu2{display: none;}
 	.gengduo{display: block}
 	.yilou,.sanlou{height: 550px;}
-	.erlou{height: 350px;}
+	.erlou{height: 250px;}
 }
 @media(max-width:1000px){
 	.yilou,.erlou,.sanlou,.silou{height: 500px;}
+	.erlou{height: 200px;}
 	.yilou span{font-size: 40px}
 }
 @media(max-width:850px){
 	.yilou,.sanlou,.silou{height: 450px;}
-	.erlou{height: 300px;}
+	.erlou{height: 150px;}
 	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 20px;}
 	.yilou span{font-size: 36px}
 }
 @media(max-width:740px){
 	.yilou,.sanlou,.silou{height: 400px;}
-	.erlou{height: 250px;}
+	.erlou{height: 100px;}
 	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 18px;}
 	.yilou span{font-size: 32px}
 }
 @media(max-width:600px){
 	.yilou,.sanlou,.silou{height: 350px;}
-	.erlou{height: 200px;}
+	.erlou{height: 100px;}
 	.erlou .jutijianjie,.sanlou .jutijingli,.silou .jutijineng{font-size: 16px;}
 }
