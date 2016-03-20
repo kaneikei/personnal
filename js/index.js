@@ -28,8 +28,8 @@ $(function()
 
 	})()
 	var t=setInterval(move,4000);
-	var jieshao="我";
-	var $ziwojieshao=$('.erlou span');
+	var jieshao="我是李海涛，来自山西，是一名前端工程师";
+	var $ziwojieshao=$('.erloubox .jutijianjie');
 	$ziwojieshao.text();
 	var zichuxian=(function()
 			{	var index=0;
